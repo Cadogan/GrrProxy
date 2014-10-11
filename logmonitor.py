@@ -32,7 +32,7 @@ class LogMonitor(threading.Thread):
         'event' is the Event object which is checked before making calls to the
         handler.
         'interval' must be of type int or float. It specifies the time in
-        seconds between each call to the handler. (default: 1)
+        seconds between each call to the handler. (default: 0.01)
 
         NOTE:
         If the interval is too long, the accumulated messages in the logger
